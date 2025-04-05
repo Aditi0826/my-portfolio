@@ -1,0 +1,91 @@
+.skills-section {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.skills-heading .glow {
+  color: #00aaff;
+  text-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.2rem;
+  max-width: 1000px;
+  margin: 0 auto 4rem auto;
+}
+
+.skill-card {
+  background: linear-gradient(145deg, #e0e0e0, #ffffff);
+  box-shadow: 4px 4px 10px #ccc, -4px -4px 10px #fff;
+  padding: 1.2rem;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 170, 255, 0.2);
+}
+
+/* Tools Section */
+.tool-groups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tool-box {
+  background-color: #f7f7f7;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.tool-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #0077b6;
+}
+
+.tool-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.tool-card {
+  background: linear-gradient(135deg, #e6f7ff, #ffffff);
+  box-shadow: 2px 2px 6px #ccc;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  font-weight: 500;
+  color: #333;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease;
+}
+
+.tool-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 170, 255, 0.15);
+}
