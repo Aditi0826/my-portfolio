@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./Skills.css";
 
 const skills = [
-  "JavaScript", "C", "C++", "Python",
+  "AI/ML", "JavaScript", "C", "C++", "Python",
   "React", "HTML5", "CSS3", "Bootstrap", "Node.js", "PHP",
   "MongoDB", "SQL",
 ];
