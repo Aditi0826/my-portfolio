@@ -45,6 +45,13 @@ const projectsData = [
     tech: "Python, Flask, React.js, TensorFlow",
     link: "https://github.com/yourgithub/stock-prediction",
   },
+  {
+    id: 7,
+    title: "Object Detection System",
+    description: "An AI-based project on real-time object detection using TensorFlow, leveraging deep learning and computer vision to accurately identify and track objects in images and live video streams.",
+    tech: "Python, Flask, React.js, TensorFlow",
+    link: "https://github.com/yourgithub/stock-prediction",
+  },
 ];
 
 const Projects = () => {
