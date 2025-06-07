@@ -30,8 +30,8 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          A passionate <span className="role-highlight">Full Stack Web Developer</span><br />
-          crafting dynamic and user-focused web applications.
+          <span className="role-highlight">Bridging code and cognition - </span><br />
+          building dynamic full-stack apps fueled by the magic of AI and machine learning to transform ideas into intelligent solutions.
         </motion.p>
 
         <motion.div
